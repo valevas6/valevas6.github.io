@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hongbo-Contact</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <a href="index.html">
+                    <li class="zoom">HOME</li>
+                </a>
+                <a href="about.html">
+                    <li class="zoom">ABOUT</li>
+                </a>
+                <a href="gallery.html">
+                    <li class="zoom">GALLERY</li>
+                </a>
+                <a href="contact.html">
+                    <li class="zoom">CONTACT</li>
+                </a>
+            </ul>
+            <img class="img-fluid headerIMG " src="img/header.png">
+            <center><img id="logo" class="fadeIn2 " src="img/logo.png"></center>
+        </div>
+
+        <div class="menuresponsive">
+
+            <nav id="mynav" class="navbar navbar-expand-lg navbar-dark fixed-top background-header ">
+                <div class="container pt-2 pb-2 ">
+                    <button id="boton-menu" class="navbar-toggler" onclick="efectobluir()" style="margin-top: 0;    margin-right: 7%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="display navbar-collapse  fondonav" id="nav-contact">
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li id="navitem" class="nav-item mr-2">
+                                <a href="index.html" class="lightblue">HOME</a>
+                            </li>
+                            <li class="nav-item mr-2 ">
+                                <a href="about.html" class="lightblue">ABOUT</a>
+                            </li>
+
+                            <li class="nav-item mr-2">
+                                <a href="gallery.html" class="lightblue">GALLERY</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a href="contact.html" class="lightblue">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <img class="img-fluid headerIMG " id="contenido-pagina" src="img/header.png">
+            <center><img id="logo" class="logo fadeIn2" src="img/logo.png"></center>
+        </div>
+
+    </header>
+    <div id="contenido-pagina2">
+        <div class="container">
+            <h1>CONTACT</h1>
+            <form>
+                <h2>Name</h2>
+                <input class="form-control" type="text" placeholder="What's your name?">
+                <h2>Email</h2>
+                <input class="form-control" type="email" placeholder="What's your email?">
+                <h2>Subject</h2>
+                <input class="form-control" type="text" placeholder="What's your subject?">
+                <h2>Message</h2>
+                <textarea class="form-control" type="text" placeholder="Send us a message"></textarea>
+                <center><button type="submit" class="btn send ">SEND</button></center>
+            </form>
+        </div>
+
+        <footer>
+            <div class="container">
+                <a href="https://www.snapchat.com/l/es/"><img class="sizeIcons" src="img/snap.png"></a>
+                <a href="https://twitter.com/login?lang=es"><img class="sizeIcons" src="img/twitter.png"></a>
+                <a href="https://www.facebook.com/"><img class="sizeIcons" src="img/facebook.png"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/prueba.js"></script>
+
+</body>
+
+</html>
