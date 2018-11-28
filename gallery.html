@@ -12,63 +12,102 @@
 
 <body>
     <header>
-        <ul>
-            <a href="index.html">
-                <li class="blue zoom">HOME</li>
-            </a>
-            <a href="about.html">
-                <li class="blue zoom">ABOUT</li>
-            </a>
-            <a href="gallery.html">
-                <li class="blue zoom">GALLERY</li>
-            </a>
-            <a href="contact.html">
-                <li class="blue zoom">CONTACT</li>
-            </a>
-        </ul>
-        <center><img id="logoAzul" class="fadeIn2" src="img/logoAzul.png"></center>
+        <div class="menu">
+            <ul>
+                <a href="index.html">
+                    <li class="zoom lightblue">HOME</li>
+                </a>
+                <a href="about.html">
+                    <li class="zoom lightblue">ABOUT</li>
+                </a>
+                <a href="gallery.html">
+                    <li class="zoom lightblue">GALLERY</li>
+                </a>
+                <a href="contact.html">
+                    <li class="zoom lightblue">CONTACT</li>
+                </a>
+            </ul>
+            <center><img id="logoAzul" class="fadeIn2" src="img/logoAzul.png"></center>
+        </div>
+
+        <div class="menuresponsive ">
+
+            <nav id="mynav" class="navbar navbar-expand-lg navbar-light fixed-top background-header ">
+                <div class="container pt-2 pb-2 ">
+                    <button id="boton-menu" class="navbar-toggler " onclick="efectobluir2()" style="margin-top: 0;    margin-right: 7%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation ">
+                                    <span class="navbar-toggler-icon "></span>
+                            </button>
+
+                    <div class="display navbar-collapse opacit fondonav" id="nav-contact">
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li id="navitem" class="nav-item mr-2">
+                                <a href="index.html" class="lightblue">HOME</a>
+                            </li>
+                            <li class="nav-item mr-2 ">
+                                <a href="about.html" class="lightblue">ABOUT</a>
+                            </li>
+
+                            <li class="nav-item mr-2">
+                                <a href="gallery.html" class="lightblue">GALLERY</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a href="contact.html" class="lightblue">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <center><img id="logoAzul" class="fadeIn2" src="img/logoAzul.png"></center>
+        </div>
+
     </header>
 
-    <div class="container">
-
-        <h1>GALLERY</h1>
-    </div>
-    <div class="container">
-        <div class="row images">
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row images">
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row images">
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row images">
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-            <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
-        </div>
-    </div>
-
-    <footer>
+    <div id="contenido-pagina">
         <div class="container">
-            <a href="https://www.snapchat.com/l/es/"><img class="sizeIcons" src="img/snap.png"></a>
-            <a href="https://twitter.com/login?lang=es"><img class="sizeIcons" src="img/twitter.png"></a>
-            <a href="https://www.facebook.com/"><img class="sizeIcons" src="img/facebook.png"></a>
+
+            <h1>GALLERY</h1>
         </div>
-    </footer>
+        <div class="container">
+            <div class="row images">
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row images">
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row images">
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row images">
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+                <div class="col-4"><img class="sizeimages zoom" src="img/foto.png"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <a href="https://www.snapchat.com/l/es/"><img class="sizeIcons" src="img/snap.png"></a>
+                <a href="https://twitter.com/login?lang=es"><img class="sizeIcons" src="img/twitter.png"></a>
+                <a href="https://www.facebook.com/"><img class="sizeIcons" src="img/facebook.png"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/prueba.js"></script>
 </body>
 
 </html>

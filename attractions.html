@@ -6,7 +6,7 @@
     <title>Hongbo-Contract</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link href="./bootstrap/bootstrap.min" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -17,73 +17,113 @@
 
 <body>
     <header>
-        <ul>
-            <a href="index.html">
-                <li class="zoom">HOME</li>
-            </a>
-            <a href="about.html">
-                <li class="zoom">ABOUT</li>
-            </a>
-            <a href="gallery.html">
-                <li class="zoom">GALLERY</li>
-            </a>
-            <a href="contact.html">
-                <li class="zoom">CONTACT</li>
-            </a>
-        </ul>
-        <img class="img-fluid headerIMG " src="img/header.png">
-        <center><img id="logo" class="fadeIn2" src="img/logo.png"></center>
+        <div class="menu">
+            <ul>
+                <a href="index.html">
+                    <li class="zoom">HOME</li>
+                </a>
+                <a href="about.html">
+                    <li class="zoom">ABOUT</li>
+                </a>
+                <a href="gallery.html">
+                    <li class="zoom">GALLERY</li>
+                </a>
+                <a href="contact.html">
+                    <li class="zoom">CONTACT</li>
+                </a>
+            </ul>
+            <img class="img-fluid headerIMG " src="img/header.png">
+            <center><img id="logo" class="fadeIn2 " src="img/logo.png"></center>
+        </div>
+
+        <div class="menuresponsive ">
+
+            <nav id="mynav" class="navbar navbar-expand-lg navbar-dark fixed-top background-header ">
+                <div class="container pt-2 pb-2 ">
+                    <button id="boton-menu" class="navbar-toggler" onclick="efectobluir()" style="margin-top: 0;    margin-right: 7%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse opacit fondonav" id="navbarSupportedContent">
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li id="navitem" class="nav-item mr-2">
+                                <a href="index.html" class="lightblue">HOME</a>
+                            </li>
+                            <li class="nav-item mr-2 ">
+                                <a href="about.html" class="lightblue">ABOUT</a>
+                            </li>
+
+                            <li class="nav-item mr-2">
+                                <a href="gallery.html" class="lightblue">GALLERY</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a href="contact.html" class="lightblue">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <img class="img-fluid headerIMG " id="contenido-pagina" src="img/header.png">
+            <center><img id="logo" class="fadeIn2 logo" src="img/logo.png"></center>
+        </div>
+
     </header>
+    <div id="contenido-pagina2">
+        <div class="container stretchRigh">
 
-    <div class="container stretchRight">
+            <center>
+                <h1>Animation</h1>
+            </center>
 
+
+        </div>
+        <div class="blueSeccions stretchLeft">
+            <div class=" container ">
+                <div class="row images">
+                    <div class="col-6"></div>
+                    <div class="col-6"><img class="sizeimages marginani" src="img/ani.png"></div>
+                </div>
+            </div>
+        </div>
         <center>
-            <h1>Animation</h1>
+            <h1>Contract</h1>
         </center>
+        <div class="blueSeccions stretchLeft ">
+            <div class="container">
+                <textarea class="form-control margintextarea" rows="5" id="comment"></textarea>
+                <div class="row images">
+                    <div class="col-6"><input class="form-control" type="email" placeholder="File"></div>
+                    <div class="col-6"><input class="form-control" type="email" placeholder="Expected time"></div>
+                </div>
+                <div class="row images">
+                    <div class="col-6"><input class="form-control" type="email" placeholder="Prize"></div>
+                    <div class="col-6"><input class="form-control" type="email" placeholder="Contact"></div>
+                </div>
 
 
-    </div>
-    <div class="blueSeccions stretchLeft">
-        <div class=" container ">
-            <div class="row images">
-                <div class="col-6"></div>
-                <div class="col-6"><img class="sizeimages marginani" src="img/ani.png"></div>
             </div>
         </div>
-    </div>
-    <center>
-        <h1>Contract</h1>
-    </center>
-    <div class="blueSeccions stretchLeft ">
-        <div class="container">
-            <textarea class="form-control margintextarea" rows="5" id="comment"></textarea>
-            <div class="row images">
-                <div class="col-6"><input class="form-control" type="email" placeholder="File"></div>
-                <div class="col-6"><input class="form-control" type="email" placeholder="Expected time"></div>
-            </div>
-            <div class="row images">
-                <div class="col-6"><input class="form-control" type="email" placeholder="Prize"></div>
-                <div class="col-6"><input class="form-control" type="email" placeholder="Contact"></div>
-            </div>
 
-
+        <div class="container ">
+            <center><input type="submit" class="btn send2" value="Submit" onclick="location='attractions.html'" /></center>
         </div>
+
+
+
+        <footer class="stretchLeft">
+            <div class="container">
+                <a href="https://www.snapchat.com/l/es/"><img class="sizeIcons" src="img/snap.png"></a>
+                <a href="https://twitter.com/login?lang=es"><img class="sizeIcons" src="img/twitter.png"></a>
+                <a href="https://www.facebook.com/"><img class="sizeIcons" src="img/facebook.png"></a>
+            </div>
+        </footer>
     </div>
-
-    <div class="container">
-        <center><input type="submit" class="btn send2" value="Submit" onclick="location='attractions.html'" /></center>
     </div>
-
-    </div>
-
-    <footer class="stretchLeft">
-        <div class="container">
-            <a href="https://www.snapchat.com/l/es/"><img class="sizeIcons" src="img/snap.png"></a>
-            <a href="https://twitter.com/login?lang=es"><img class="sizeIcons" src="img/twitter.png"></a>
-            <a href="https://www.facebook.com/"><img class="sizeIcons" src="img/facebook.png"></a>
-        </div>
-    </footer>
-
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/prueba.js"></script>
 </body>
+
 
 </html>
